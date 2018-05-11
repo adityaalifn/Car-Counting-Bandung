@@ -2,7 +2,7 @@ import numpy as np
 import cv2
 import time
 
-cap = cv2.VideoCapture("http://202.149.87.56/camera/MerdekaAceh.m3u8")
+cap = cv2.VideoCapture("http://202.149.87.56/camera/PasirKalikiIP.m3u8")
 fps_time = 0
 frame_rate = int(cap.get(5))
 print(frame_rate)
